@@ -1,0 +1,19 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "ENV=.env mix",
+        "watch": "ENV=.env mix watch",
+        "staging": "ENV=.env NODE_ENV=staging mix",
+        "prod": "ENV=.env mix --production"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.39",
+        "laravel-mix-jigsaw": "^2.0.0",
+        "mix-env-file": "^0.1.1",
+        "postcss": "^8.4.14",
+        "postcss-import": "^14.0.0",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.82.0",
+        "sass-loader": "^16.0.4"
+    }
+}
