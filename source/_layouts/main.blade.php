@@ -1,4 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $page->language ?? 'en' }}">
 
 <head>
@@ -17,6 +18,7 @@
     <script type="text/javascript" src="{{ $page->baseUrl }}{{ mix('js/jquery.center.js', false) }}" defer></script>
     <script type="text/javascript">
         let current = 1;
+
         function slideBanner() {
             let length = jQuery(".banner").length;
 
@@ -27,10 +29,12 @@
             else current++;
         }
 
-        jQuery(document).ready(function ($) {
+        jQuery(document).ready(function($) {
             jQuery('#content #main #meio-produtos li .foto a').center();
             jQuery('#rodape .marcas li a').center();
-            jQuery('#rodape .marcas').jcarousel();
+            jQuery('#rodape .marcas').jcarousel({
+                wrap: 'circular'
+            });
 
             setInterval("slideBanner();", 7000);
         });
@@ -38,7 +42,16 @@
 </head>
 
 <body class="front">
-    @yield('body')
+    @include('_layouts.top')
+    @include('_layouts.banner')
+    @include('_layouts.menu')
+    @include('_layouts.search')
+    <div class="container" id="content">
+        <div class="center">
+            @yield('body')
+        </div>
+    </div>
+    @include('_layouts.footer')
 </body>
 
 </html>
