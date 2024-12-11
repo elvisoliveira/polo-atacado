@@ -1,10 +1,8 @@
 {
     "private": true,
     "scripts": {
-        "dev": "ENV=.env mix",
         "watch": "ENV=.env mix watch",
-        "staging": "ENV=.env NODE_ENV=staging mix",
-        "prod": "ENV=.env mix --production"
+        "build": "ENV=.env mix --production"
     },
     "devDependencies": {
         "laravel-mix": "^6.0.39",

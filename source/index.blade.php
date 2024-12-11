@@ -50,14 +50,14 @@
         <div class="center">
             <div id="logo">
                 <a href="{{ $page->getUrl() }}">
-                    <img src="{{ $page->getUrl() }}images/logo.png" width="304" height="112" />
+                    <img src="{{ $page->baseUrl }}/images/logo.png" width="304" height="112" />
                 </a>
             </div>
         </div>
         <div id="slideshow">
             <ul>
-                <li id="banner1" class="banner"><img src="{{ $page->getUrl() }}images/banner/banner01.jpg" width="1920" height="380" /></li>
-                <li id="banner2" class="banner"><img src="{{ $page->getUrl() }}images/banner/banner02.jpg" width="1920" height="380" /></li>
+                <li id="banner1" class="banner"><img src="{{ $page->baseUrl }}/images/banner/banner01.jpg" width="1920" height="380" /></li>
+                <li id="banner2" class="banner"><img src="{{ $page->baseUrl }}/images/banner/banner02.jpg" width="1920" height="380" /></li>
             </ul>
         </div>
     </div>
@@ -103,7 +103,7 @@
     <div class="container" id="pesquisa">
         <div class="center">
             <div class="bg-busca">
-                <img src="{{ $page->getUrl() }}images/bg-busca.png" />
+                <img src="{{ $page->baseUrl }}/images/bg-busca.png" />
             </div>
             <div class="bg-busca-form">
                 <form action="#" enctype="multipart/form-data" method="post">
@@ -189,13 +189,13 @@
                     </dl>
                 </div>
                 <div id="redes-sociais">
-                    <img src="{{ $page->getUrl() }}images/banner-redes-sociais.png" width="228"
+                    <img src="{{ $page->baseUrl }}/images/banner-redes-sociais.png" width="228"
                         height="102" />
                 </div>
             </div>
             <div id="main">
                 <div id="topo-destaques">
-                    <img src="{{ $page->getUrl() }}images/topo-destaques.png" width="711" height="96" />
+                    <img src="{{ $page->baseUrl }}/images/topo-destaques.png" width="711" height="96" />
                 </div>
                 <div id="topo-filtro">
                     <hr /><span>Ordenar por:</span>
@@ -214,7 +214,7 @@
                         <li class="first">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/06.png" width="118"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/06.png" width="118"
                                         height="221" />
                                 </a>
                             </div>
@@ -226,11 +226,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -238,7 +238,7 @@
                         <li class="second">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/05.png" width="166"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/05.png" width="166"
                                         height="169" />
                                 </a>
                             </div>
@@ -250,11 +250,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -262,7 +262,7 @@
                         <li class="third">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/04.png" width="162"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/04.png" width="162"
                                         height="127" />
                                 </a>
                             </div>
@@ -274,11 +274,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -287,7 +287,7 @@
                         <li class="first">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/03.png" width="186"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/03.png" width="186"
                                         height="135" />
                                 </a>
                             </div>
@@ -299,11 +299,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -311,7 +311,7 @@
                         <li class="second">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/02.png" width="204"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/02.png" width="204"
                                         height="154" />
                                 </a>
                             </div>
@@ -323,11 +323,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -335,7 +335,7 @@
                         <li class="third">
                             <div class="foto">
                                 <a href="#">
-                                    <img src="{{ $page->getUrl() }}images/produtos/01.png" width="192"
+                                    <img src="{{ $page->baseUrl }}/images/produtos/01.png" width="192"
                                         height="192" />
                                 </a>
                             </div>
@@ -347,11 +347,11 @@
                             </div>
                             <div class="opcoes">
                                 <a href="#" class="produto">
-                                    <img src="{{ $page->getUrl() }}images/bt-adicionar-ao-orcamento.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bt-adicionar-ao-orcamento.gif"
                                         width="106" height="35" />
                                 </a>
                                 <a href="#" class="orcamento">
-                                    <img src="{{ $page->getUrl() }}images/bg-especificacoes-do-produto.gif"
+                                    <img src="{{ $page->baseUrl }}/images/bg-especificacoes-do-produto.gif"
                                         width="106" height="35" />
                                 </a>
                             </div>
@@ -366,118 +366,118 @@
             <ul class="marcas">
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/bandeirante.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/bandeirante.gif" width="81"
                             height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/estrela.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/estrela.gif" width="81"
                             height="80" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/grow.png" width="67" height="85" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/grow.png" width="67" height="85" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/gulliver.gif" width="70"
+                        <img src="{{ $page->baseUrl }}/images/marcas/gulliver.gif" width="70"
                             height="79" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/mattel.gif" width="81" height="83" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/mattel.gif" width="81" height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/pbkids.jpg" width="114" height="67" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/pbkids.jpg" width="114" height="67" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/tindolele.gif" width="120"
+                        <img src="{{ $page->baseUrl }}/images/marcas/tindolele.gif" width="120"
                             height="79" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/bandeirante.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/bandeirante.gif" width="81"
                             height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/estrela.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/estrela.gif" width="81"
                             height="80" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/grow.png" width="67" height="85" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/grow.png" width="67" height="85" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/gulliver.gif" width="70"
+                        <img src="{{ $page->baseUrl }}/images/marcas/gulliver.gif" width="70"
                             height="79" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/mattel.gif" width="81" height="83" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/mattel.gif" width="81" height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/pbkids.jpg" width="114" height="67" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/pbkids.jpg" width="114" height="67" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/tindolele.gif" width="120"
+                        <img src="{{ $page->baseUrl }}/images/marcas/tindolele.gif" width="120"
                             height="79" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/bandeirante.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/bandeirante.gif" width="81"
                             height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/estrela.gif" width="81"
+                        <img src="{{ $page->baseUrl }}/images/marcas/estrela.gif" width="81"
                             height="80" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/grow.png" width="67" height="85" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/grow.png" width="67" height="85" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/gulliver.gif" width="70"
+                        <img src="{{ $page->baseUrl }}/images/marcas/gulliver.gif" width="70"
                             height="79" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/mattel.gif" width="81" height="83" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/mattel.gif" width="81" height="83" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/pbkids.jpg" width="114" height="67" />
+                        <img src="{{ $page->baseUrl }}/images/marcas/pbkids.jpg" width="114" height="67" />
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        <img src="{{ $page->getUrl() }}images/marcas/tindolele.gif" width="120"
+                        <img src="{{ $page->baseUrl }}/images/marcas/tindolele.gif" width="120"
                             height="79" />
                     </a>
                 </li>

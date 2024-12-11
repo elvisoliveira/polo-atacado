@@ -10,11 +10,11 @@
 
     <link rel="canonical" href="{{ $page->getUrl() }}">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ mix('css/main.css', $page->baseUrl) }}">
+    <link rel="stylesheet" type="text/css" href="{{ $page->baseUrl }}{{ mix('css/main.css', false) }}">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jcarousel/0.2.8/jquery.jcarousel.min.js"></script>
-    <script type="text/javascript" src="{{ mix('js/jquery.center.js', $page->baseUrl) }}" defer></script>
+    <script type="text/javascript" src="{{ $page->baseUrl }}{{ mix('js/jquery.center.js', false) }}" defer></script>
     <script type="text/javascript">
         let current = 1;
         function slideBanner() {

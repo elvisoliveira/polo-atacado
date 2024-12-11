@@ -8,6 +8,5 @@ npm-debug.log
 Thumbs.db
 
 # Optional ignores
-/build_staging/
+/build/
 /build_production/
-/source/polo-atacado/
