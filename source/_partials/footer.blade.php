@@ -3,7 +3,7 @@
         <ul class="marcas">
             @foreach ($page->brands as $brand)
                 <li>
-                    <a href="#">
+                    <a href="#" class="centralize">
                         <img src="{{ $page->baseUrl }}/images/marcas/{{ $brand->filename }}" width="{{ $brand->width }}"
                             height="{{ $brand->height }}" />
                     </a>
@@ -12,7 +12,7 @@
         </ul>
         <ul class="menu-rodape">
             <li><a href="{{ $page->baseUrl }}/">Home</a></li>
-            @include('_layouts.menufy', [
+            @include('_partials.menufy', [
                 'options' => ['Institucional', 'Produtos', 'Como Comprar', 'Fale Conosco'],
             ])
         </ul>

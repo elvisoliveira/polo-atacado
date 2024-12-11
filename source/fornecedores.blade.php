@@ -2,7 +2,7 @@
 
 @section('body')
     <div id="sidebar">
-        @include('_layouts.assine-news')
+        @include('_partials.assine-news')
         <div id="produtos-menu">&nbsp;</div>
     </div>
     <div id="main">
@@ -13,7 +13,8 @@
                 fornecedores que são referência em qualidade e confiança.</p>
             <ul class="fornecedores">
                 @foreach (['bandeirante', 'chicco', 'dtc', 'estrela', 'grow', 'gulliver', 'hasbro', 'hotwheels', 'lego', 'mattel', 'max', 'pbkids', 'polly', 'tindolele'] as $item)
-                    <li><a href="#"><img src="{{ $page->baseUrl }}/images/fornecedores/{{ $item }}.jpg" /></a>
+                    <li>
+                        <a href="#"><img src="{{ $page->baseUrl }}/images/fornecedores/{{ $item }}.jpg" /></a>
                     </li>
                 @endforeach
             </ul>

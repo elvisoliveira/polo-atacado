@@ -26,6 +26,7 @@ mix.webpackConfig({
 mix.copy('source/*.php', BUILD_DIR);
 mix.copyDirectory('source/_images', `${BUILD_DIR}/images`);
 mix.copyDirectory('source/_layouts', `${BUILD_DIR}/_layouts`);
+mix.copyDirectory('source/_partials', `${BUILD_DIR}/_partials`);
 
 mix.jigsaw()
     .js('source/_assets/js/jquery.center.js', 'js')

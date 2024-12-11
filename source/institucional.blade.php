@@ -2,7 +2,7 @@
 
 @section('body')
     <div id="sidebar">
-        @include('_layouts.assine-news')
+        @include('_partials.assine-news')
         <div id="produtos-menu">
             <dl>
                 <dt>Institucional</dt>

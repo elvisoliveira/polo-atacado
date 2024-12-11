@@ -2,9 +2,9 @@
 
 @section('body')
     <div id="sidebar">
-        @include('_layouts.assine-news')
+        @include('_partials.assine-news')
         <div id="produtos-menu">
-            @include('_layouts.cadastre-se', ['active' => 'pessoa-juridica'])
+            @include('_partials.cadastre-se', ['active' => 'pessoa-juridica'])
             <div class="obs">
                 <div class="obs-title">OBSERVAÇÃO:</div>
                 <div class="obs-desc">

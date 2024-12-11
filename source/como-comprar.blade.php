@@ -2,11 +2,11 @@
 
 @section('body')
     <div id="sidebar">
-        @include('_layouts.assine-news')
+        @include('_partials.assine-news')
         <div id="produtos-menu">&nbsp;</div>
     </div>
     <div id="main">
-        <div id="breadcrumb">Como comprar</div>
+        <div id="breadcrumb">Como Comprar</div>
         <div id="como-comprar">
             <p><span class="title">Saiba quem está junto conosco</span></p>
             <p>Visite nossa loja ou compre pelo nosso Televendas. Faça seu cadastro!</p>

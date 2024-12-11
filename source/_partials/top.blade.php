@@ -5,7 +5,7 @@
         </div>
         <div class="fale-conosco-menu">
             <ul>
-                @include('_layouts.menufy', [
+                @include('_partials.menufy', [
                     'options' => ['Fale Conosco', 'Minha Conta', 'Minhas Listas', 'Como Chegar'],
                 ])
             </ul>
@@ -15,7 +15,7 @@
                 <li class="first">
                     <a href="{{ $page->baseUrl }}/">Home</a>
                 </li>
-                @include('_layouts.menufy', [
+                @include('_partials.menufy', [
                     'options' => ['Institucional', 'Produtos', 'Fornecedores', 'Como Comprar'],
                 ])
                 <li class="last">

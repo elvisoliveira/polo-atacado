@@ -2,8 +2,8 @@
 
 @section('body')
     <div id="sidebar">
-        @include('_layouts.assine-news')
-        @include('_layouts.fale-conosco', ['active' => 'fale-conosco'])
+        @include('_partials.assine-news')
+        @include('_partials.fale-conosco', ['active' => 'fale-conosco'])
     </div>
     <div id="main">
         <div id="breadcrumb">Fale Conosco <span class="current">/ fale conosco</span></div>

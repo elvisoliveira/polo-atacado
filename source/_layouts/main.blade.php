@@ -30,8 +30,7 @@
         }
 
         jQuery(document).ready(function($) {
-            jQuery('#content #main #meio-produtos li .foto a').center();
-            jQuery('#rodape .marcas li a').center();
+            jQuery('.centralize').center();
             jQuery('#rodape .marcas').jcarousel({
                 wrap: 'circular'
             });
@@ -42,16 +41,16 @@
 </head>
 
 <body class="front">
-    @include('_layouts.top')
-    @include('_layouts.banner')
-    @include('_layouts.menu')
-    @include('_layouts.search')
+    @include('_partials.top')
+    @include('_partials.banner')
+    @include('_partials.menu')
+    @include('_partials.search')
     <div class="container" id="content">
         <div class="center">
             @yield('body')
         </div>
     </div>
-    @include('_layouts.footer')
+    @include('_partials.footer')
 </body>
 
 </html>
