@@ -2,7 +2,8 @@
     "private": true,
     "scripts": {
         "watch": "ENV=.env mix watch",
-        "build": "ENV=.env mix --production"
+        "build": "ENV=.env mix --production",
+        "deploy": "npm run build && ./.github/gh-pages.sh"
     },
     "devDependencies": {
         "laravel-mix": "^6.0.39",

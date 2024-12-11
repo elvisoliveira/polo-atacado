@@ -11,7 +11,7 @@ const fs = require('fs');
 fs.rmSync(BUILD_DIR, { recursive: true, force: true });
 fs.mkdirSync(BUILD_DIR, { recursive: true });
 
-const BASE_PATH = `./${process.env.BASE_PATH}`;
+const BASE_PATH = process.env.BASE_PATH;
 
 mix.setPublicPath(BUILD_DIR);
 
