@@ -3,15 +3,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="{{ $page->language ?? 'en' }}">
 
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ $page->description }}">
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="{{ $page->description }}" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <title>{{ $page->title }}</title>
 
-    <link rel="canonical" href="{{ $page->getUrl() }}">
+    <link rel="canonical" href="{{ $page->getUrl() }}" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css" />
-    <link rel="stylesheet" type="text/css" href="{{ $page->baseUrl }}{{ mix('css/main.css', false) }}">
+    <link rel="stylesheet" type="text/css" href="{{ $page->baseUrl }}{{ mix('css/main.css', false) }}" />
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.8.2/jquery.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jcarousel/0.2.8/jquery.jcarousel.min.js"></script>
@@ -32,6 +33,7 @@
         jQuery(document).ready(function($) {
             jQuery('.centralize').center();
             jQuery('#rodape .marcas').jcarousel({
+                auto: 2,
                 wrap: 'circular'
             });
 

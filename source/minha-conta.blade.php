@@ -9,19 +9,10 @@
         <div id="breadcrumb">Minha Conta <span class="current">/ Login</span></div>
         <div id="cadastre-se">
             <h1>Minha Conta</h1>
-            <form action="#" enctype="multipart/form-data" method="post">
-                <fieldset>
-                    <div class="label">LOGIN</div>
-                    <div class="action"><input type="submit" class="submit" value="Entrar"></div>
-                    <div class="field">
-                        <span>Usuário:</span>
-                        <input type="text" class="text" name="username" />
-                    </div>
-                    <div class="field">
-                        <span>Senha:</span>
-                        <input type="password" class="text" name="password" />
-                    </div>
-                </fieldset>
+            <form action="#" method="post" autocomplete="off">
+                <label>CPF/CNPJ <input name="fields[cpf-cnpj]" type="text" /></label>
+                <label>Senha <input name="fields[senha]" type="password" /></label>
+                <input name="member-action[login]" type="submit" value="Acessar" />
             </form>
         </div>
     </div>

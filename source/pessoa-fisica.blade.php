@@ -12,7 +12,7 @@
         <div id="cadastre-se">
             <h1>Preencha os dados a seguir</h1>
             <p>Se você ainda não é cliente, faça seu cadastro clicando em Ainda não sou cliente. É fácil e
-                rápido. Ou faça o login informando CNPJ/CPF e senha. </p>
+                rápido. Ou faça o login informando CNPJ/CPF e senha.</p>
             <form action="#" enctype="multipart/form-data" method="post" class="pessoa-fisica">
                 <fieldset>
                     <div class="label">FICHA CADASTRAL PESSOA FÍSICA</div>
@@ -38,12 +38,10 @@
                         <span>Nº:</span>
                         <input type="text" name="numero" class="text">
                     </div>
-
                     <div class="field pessoa-fisica-comp">
                         <span>Comp.:</span>
                         <input type="text" name="comp" class="text">
                     </div>
-
                     <div class="field pessoa-fisica-bairro">
                         <span>Bairro:</span>
                         <input type="text" class="text" name="bairro">
@@ -62,8 +60,8 @@
                     </div>
                     <div class="field pessoa-fisica-tel">
                         <span>Tel/Cel:</span>
-                        <input type="text" name="tel" class="text"><input type="text" name="cel"
-                            class="text">
+                        <input type="text" name="tel" class="text">
+                        <input type="text" name="cel" class="text">
                     </div>
                     <div class="field pessoa-fisica-mail">
                         <span>E-mail:</span>

@@ -20,7 +20,6 @@
         <div id="breadcrumb">Cadastre-se <span class="current">/ Pessoa Jurídica</span></div>
         <div id="cadastre-se">
             <h1>Meus dados</h1>
-
             <form method="post" enctypelink="multipart/form-data" action="#" class="pessoa-juridica">
                 <fieldset>
                     <div class="label">FICHA CADASTRAL PESSOA JURÍDICA</div>

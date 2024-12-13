@@ -551,11 +551,7 @@ div#slideshow {
         width: 100%;
 
         hr {
-          -moz-border-bottom-colors: none;
-          -moz-border-left-colors: none;
-          -moz-border-right-colors: none;
-          -moz-border-top-colors: none;
-          border-color: #CCCBCB -moz-use-text-color -moz-use-text-color;
+          border-color: #CCCBCB;
           border-image: none;
           border-style: solid none none;
           border-width: 1px 0 0;
@@ -660,14 +656,9 @@ div#slideshow {
     float: right;
     margin-top: 15px;
     width: 711px;
-    line-height: 25px;
 
     hr {
-      -moz-border-bottom-colors: none;
-      -moz-border-left-colors: none;
-      -moz-border-right-colors: none;
-      -moz-border-top-colors: none;
-      border-color: #CCCBCB -moz-use-text-color -moz-use-text-color;
+      border-color: #CCCBCB;
       border-image: none;
       border-style: solid none none;
       border-width: 1px 0 0;
@@ -925,11 +916,7 @@ div#slideshow {
       width: 100%;
 
       hr {
-        -moz-border-bottom-colors: none;
-        -moz-border-left-colors: none;
-        -moz-border-right-colors: none;
-        -moz-border-top-colors: none;
-        border-color: #CCCBCB -moz-use-text-color -moz-use-text-color;
+        border-color: #CCCBCB;
         border-image: none;
         border-style: solid none none;
         border-width: 1px 0 0;
@@ -974,11 +961,7 @@ div#slideshow {
       width: 100%;
 
       hr {
-        -moz-border-bottom-colors: none;
-        -moz-border-left-colors: none;
-        -moz-border-right-colors: none;
-        -moz-border-top-colors: none;
-        border-color: #CCCBCB -moz-use-text-color -moz-use-text-color;
+        border-color: #CCCBCB;
         border-image: none;
         border-style: solid none none;
         border-width: 1px 0 0;
@@ -1085,6 +1068,8 @@ div#slideshow {
   float: left;
   padding: 10px;
   width: 690px;
+  background-color: #FFF;
+  line-height: 25px;
 
   h1 {
     color: #6B6B6B;
@@ -1802,7 +1787,7 @@ div#slideshow {
   }
 }
 
-#como-comprar {
+div#como-comprar {
   background: none repeat scroll 0 0 white;
   color: #6B6B6B;
   float: left;
@@ -1887,7 +1872,7 @@ div#slideshow {
   }
 }
 
-#fale-conosco {
+div#fale-conosco {
   background: none repeat scroll 0 0 white;
   float: left;
   padding: 15px;

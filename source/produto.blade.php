@@ -33,7 +33,6 @@
                     </li>
                 </div>
             </div>
-
             <div class="descricao">
                 <div class="descricao-titulo">Bóia Inflável - 1m diâmetro</div>
                 <div class="descricao-texto">

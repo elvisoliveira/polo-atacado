@@ -5,7 +5,6 @@
             <dd>{{ $menu }}</dd>
         @endforeach
     </dl>
-    <hr />
     <dl>
         <dt>Marcas</dt>
         @foreach ($page->categories as $category => $items)
@@ -13,7 +12,6 @@
             @foreach ($items as $item)
                 <dd>{{ $item }}</dd>
             @endforeach
-            <hr />
         @endforeach
     </dl>
 </div>
